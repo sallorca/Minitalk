@@ -15,19 +15,4 @@
   <li>La comunicación entre tu cliente y tu servidor debe hacerse SOLO utilizando señales UNIX.</li>
   <li>Solo puedes utilizar estas dos señales: SIGUSR1 y SIGUSR2.</li>
   <p>Linux no pone en cola señales cuando ya tienes señales pendientes de este tipo. ¿Hora de hacer bonus?</p>
-</ul><h2>Parte obligatoria</h2>
-<ul>
-  <li>Debes crear un programa de comunicación en la forma de un cliente y un servidor.</li>
-  <li>El servidor debe lanzarse primero, tras lanzarse debe mostrar su PID.</li>
-  <li>El cliente tomará como parámetros:</li>
-  <ul>
-    <li>El PID del servidor.</li>
-    <li>La string que debería mandarse.</li>
-  </ul>
-  <li>El cliente debe comunicar la string pasada como parámetro al servidor. Una vez la string se haya recibido, el servidor debe mostrarla.</li>
-  <li>El servidor debe ser capaz de mostrar la string suficientemente rápido. Por rápido queremos decir que si piensas que está tardando mucho, probablemente es que está tardando demasiado. 1 segundo para mostrar 100 caracteres es ¡muchíiiiisimo!</li>
-  <li>Tu servidor debe poder recibir strings de distintos clientes consecutivamente, sin necesidad de reiniciar.</li>
-  <li>La comunicación entre tu cliente y tu servidor debe hacerse SOLO utilizando señales UNIX.</li>
-  <li>Solo puedes utilizar estas dos señales: SIGUSR1 y SIGUSR2.</li>
-  <p>Linux no pone en cola señales cuando ya tienes señales pendientes de este tipo. ¿Hora de hacer bonus?</p>
 </ul>
