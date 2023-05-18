@@ -16,3 +16,17 @@
   <li>Solo puedes utilizar estas dos señales: SIGUSR1 y SIGUSR2.</li>
   <p>Linux no pone en cola señales cuando ya tienes señales pendientes de este tipo. ¿Hora de hacer bonus?</p>
 </ul>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de bonus</title>
+  </head>
+  <body>
+    <h1>Lista de bonus:</h1>
+    <ul>
+      <li>El servidor confirma cada señal recibida mandando una señal al cliente.</li>
+      <li>Soporta los caracteres Unicode.</li>
+    </ul>
+    <p>La parte extra solo será evaluada si la parte obligatoria está PERFECTA. Perfecta significa que la parte obligatoria se ha completado entera y funciona sin ningún error. Si no has alcanzado todos los requisitos de la parte obligatoria, tu bonus no será evaluada de ninguna manera.</p>
+  </body>
+</html>
