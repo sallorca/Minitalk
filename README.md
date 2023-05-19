@@ -19,7 +19,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lista de bonus</title>
   </head>
   <body>
     <h1>Lista de bonus:</h1>
